@@ -1,1 +1,2 @@
-.env
+MongoDB/.env
+MongoDB/node_modules
