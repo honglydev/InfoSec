@@ -1,17 +1,40 @@
 {
-  "name": "stock-price-checker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "boilerplate-project-stockchecker",
+  "version": "0.0.1",
+  "description": "For running locally create a file named `.env` with the code below: ``` PORT:3000 DB: NODE_ENV=test ``` You should set the DB to your MongoDB URI database.",
+  "main": "InfoSec project for freeCodeCamp",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --watch index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "helmet": "^8.1.0"
-  }
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.8",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^7.5.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCamp/boilerplate-project-stockchecker.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-stockchecker#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "author": ""
 }
